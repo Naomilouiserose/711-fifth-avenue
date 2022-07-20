@@ -92,6 +92,10 @@ header {
   transition: 0.3s;
   z-index: 5;
 
+  li {
+    margin: 20px 0;
+  }
+
   a {
     @include nav-text;
     display: block;
@@ -106,10 +110,10 @@ header {
   .closebtn {
     font-size: 2em;
     position: absolute;
-    top: 30px;
+    top: 60px;
     right: 25px;
-    @include s {
-      top: 60px;
+    @include s-long {
+      top: 40px;
     }
     @include sm {
       top: 70px;
