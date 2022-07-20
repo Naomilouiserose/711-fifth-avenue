@@ -1,0 +1,38 @@
+// branding & theme colour map
+$lightgrey:   #D8D8D8;
+$black-3:     #353231;
+$black-2:     #0F0F0F;
+$black:       #000000;
+
+
+$textbody:    $black-3 !default;
+$titletext:   $black-2 !default;
+$light:       #FFFFFF !default;
+$dark:        #08052f !default;
+
+$theme-colors: (
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+$body-color: $light;
+
+
+// fonts
+$font-family-title: 'Butler Stencil Bold', sans-serif;
+$font-family-logo: 'Butler Stencil Regular', sans-serif;
+$font-family-sub: 'aktiv-grotesk-extended', sans-serif;
+$font-family-body: 'Poppins', sans-serif;
+
+
+//breakpoints
+$screen-s-min:     360px;
+$screen-swide-min: 375px;
+$screen-slong-min: 390px;
+$screen-sm-min:    412px;
+$screen-ms-min:    540px;
+$screen-md-min:    768px;
+$screen-ml-min:    912px;
+$screen-lg-min:    1024px;
+$screen-xl-min:    1200px;
+$screen-xxl-min:   1400px;

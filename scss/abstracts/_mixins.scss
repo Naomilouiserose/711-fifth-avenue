@@ -1,0 +1,86 @@
+@mixin nav-text {
+  color: $black-3;
+  font-family: $font-family-sub;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+@mixin body-text {
+  font-family: $font-family-body;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+@mixin alt-logo {
+  color: $black;
+  font-family: $font-family-logo;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin s {
+  @media (min-width: #{$screen-s-min}) {
+    @content;
+  }
+}
+
+@mixin s-wide {
+  @media (min-width: #{$screen-swide-min}) {
+    @content;
+  }
+}
+
+@mixin s-long {
+  @media (min-width: #{$screen-slong-min}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin ms {
+  @media (min-width: #{$screen-ms-min}) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin ml {
+  @media (min-width: #{$screen-ml-min}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$screen-xxl-min}) {
+    @content;
+  }
+}
+
+@mixin parralax-image {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}

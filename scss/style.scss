@@ -1,0 +1,21 @@
+/*
+Theme Name: fifthavenue
+Version: 0.0.1
+Description: Custom theme for 711 Fifth Avenue
+Tags: custom, responsive
+Author: Lattimore And Friends
+*/
+@import url('https://p.typekit.net/p.css?s=1&k=fzt2ywp&ht=tk&f=26903.26904.26905.26906.26907.26908.26909.26910.26911.26912.26913.26914.26915.26916.26917.26918&a=83366107&app=typekit&e=css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/base';
+@import 'base/typography';
+
+@import 'layout/general';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/footer';
+
+@import 'pages/home';

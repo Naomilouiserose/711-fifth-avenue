@@ -1,0 +1,22 @@
+{
+  "name": "fifth-avenue",
+  "version": "1.0.0",
+  "description": "custom wp theme",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o ./ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Naomilouiserose"
+  },
+  "author": "Naomi Martin",
+  "license": "ISC",
+  "keywords": [
+    "custom",
+    "wordpress"
+  ],
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  span {
+    font-family: $font-family-body;
+    font-size: 0.85em;
+    color: rgba(53, 50, 49,0.6);
+    margin: 40px 0;
+    text-align: center;
+  }
+}
