@@ -17,6 +17,7 @@
 @mixin alt-logo {
   color: $black;
   font-family: $font-family-logo;
+  font-weight: 300;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
 }

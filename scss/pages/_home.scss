@@ -20,17 +20,15 @@
     font-family: $font-family-sub;
     font-size: 1.2em;
     font-weight: 600;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     line-height: 1.8em;
     text-transform: uppercase;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     z-index: 2;
     @include ms {
-      width: 70%;
-    }
-    @include md {
       width: 100%;
+      padding: 0;
     }
     @include ml {
       margin-bottom: 0;
