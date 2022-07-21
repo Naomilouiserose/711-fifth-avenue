@@ -9,12 +9,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 200px;
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 100px;
+  top: 300px;
   z-index: 3;
+  @include sm {
+    top: 400px;
+  }
+  @include md {
+    top: 450px;
+  }
+  @include ml {
+    top: 550px;
+  }
+  @include lg {
+    top: 250px;
+  }
+  @include xl {
+    top: 350px;
+  }
   .tagline {
     color: $black-2;
     font-family: $font-family-sub;
@@ -26,6 +41,7 @@
     text-align: center;
     padding: 50px;
     z-index: 2;
+    display: none;
     @include ms {
       width: 100%;
       padding: 0;

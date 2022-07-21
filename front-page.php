@@ -12,7 +12,7 @@
 <main id="main" class="page-container">
   <section class="home-section-one landing">
     <aside id="parallax-bg-1" class="parallax-bg" data-speed=".7">
-    <h1 id="tagline" class="tagline safari-only-tagline box"><?php the_field('landing_tagline'); ?></h1>
+    <h1 id="tagline" class="tagline safari-only-tagline"><?php the_field('landing_tagline'); ?></h1>
   </aside>
   <aside id="parallax-bg-2" class="parallax-bg" data-speed=".4">
     <img id="bg-2-1" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/smoke_left.png'); ?>" alt="smoke-effect">

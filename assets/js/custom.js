@@ -40,6 +40,10 @@ $( ".mobile-menu-main-item" ).click(function() {
   document.getElementById("mobileNavMain").style.width = "0%";
 });
 
+
+$('.tagline').fadeIn(2000).removeClass('hidden');
+
+
 // parralax scroll landing
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".parallax-bg", {
