@@ -31,10 +31,10 @@ header {
   .site-logo {
     width: 45%;
     @include sm {
-      width: 25%;
+      width: 20%;
     }
     @include lg {
-      width: 15%;
+      width: 12%;
     }
     @include xl {
       width: 10%;
