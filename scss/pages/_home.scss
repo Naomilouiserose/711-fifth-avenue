@@ -22,12 +22,9 @@
     top: 450px;
   }
   @include ml {
-    top: 550px;
+    top: 500px;
   }
   @include lg {
-    top: 250px;
-  }
-  @include xl {
     top: 350px;
   }
   .tagline {
